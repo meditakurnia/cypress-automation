@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+//custom command ; dua parameter nama fungsi dan parameter
+Cypress.Commands.add('bukaUrl',() => {
+    cy.visit('https://bukalapak.com');
+    cy.contains('Daftar').click();
+})

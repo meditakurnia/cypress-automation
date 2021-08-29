@@ -1,4 +1,5 @@
 //contains : cek elemen apakah mengandung kata atau tidak
+//custom command : membuat perintah/fungsi yang dapat kita atur sendiri
 
 describe('kumpulan test case (testSuite)', function(){
     it ('tc-1', function(){
